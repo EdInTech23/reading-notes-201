@@ -1,0 +1,87 @@
+# reading-notes-201
+This repository will be for notes during my Ops-201 class.
+
+## Notes for 10/23/2023
+
+
+### Lab  1
+## Backup Types  
+### Normal/Full
+everything
+good to do when its your first time doing a backup 
+High backup time/ low restore time
+
+### Incremental
+All file changed since last incremental backup
+
+Low backup time "less files to update"/High restore time "needs to gather rest of resources"
+
+Differentail
+All files changed since the last full backup 
+
+Modertate backup time/ Moderate restore time.
+
+## Offsite Backups 
+Hot Site:
+
+Ready to take over for the failed production site immediately
+
+the most expensive option
+
+Backups of data stoed in a different geographic location than the production system.
+
+it in a diffrent phisical location 
+
+## Cold Site
+Take a long time to spin up
+
+less costly than hot site 
+have some of the hardware you need but 
+
+might need some more components 
+
+## Warm site
+
+Takes some time to spin up but not as long as a cold site 
+
+Middling costs to maintain
+
+## Systems Redundancy
+### High availability
+Achieved when redundancy is implemented in case the first server goes down
+
+High availability is no substitute for a good backup strategy 
+
+ system redundancy used in conjuction with a back up strategy not to replace it 
+
+ ## Fail Over
+
+ occurs when the primary server fails over to the backup server 
+
+ ## Cluster
+
+ A set of servers that work together to deliver the same 
+
+ ## Comprehensive vs. Specific backups
+## More Comprehensive
+ ### Bare Metal Backup;
+ Complete backup of an entire system, including the operating system applications settings and data
+
+ ### Image-based Backup
+ Creating a complete image or copy of a specific system or disk at a specific point in time
+
+ VM Snapshot an image capturing a virtual machines current disk and memory state
+ ## More Specific
+
+ ### System restore point;
+ Snapshot of the systems configuration and settings, created by the operation system 
+
+ ### file back ups 
+
+ Coping individual files and folders, usually selected by the user, to a separate storage location
+
+## Virtual machine Snapshots
+A snapshot saves the vm in an exact state;
+All OS and user data on the virtual disk
+
+All VM "hardware" configuration, such as network

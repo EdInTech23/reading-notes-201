@@ -20,3 +20,7 @@ bash
 bash is considered so powerful is because it's scriptable. Anything you can type into Bash manually, you can also list in a plain-text file and have Bash run it for you. Instead of spending an afternoon manually running a hundred commands, you can script the commands and have your computer execute them while you tend to more important matters.
 ### Bash scripting allows for customization, automation, and efficiency. Discuss methods or practices from your previous work experience or cultural background that aim to achieve similar goals in daily tasks.
 My dishwasher has a timer on it so i can just out dishes in it and at 9 pm sharmp itll start washing and drying.
+
+
+
+Source https://opensource.com/resources/what-bash

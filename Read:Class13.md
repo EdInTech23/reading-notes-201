@@ -1,6 +1,8 @@
 ## Cloud Virtualization with AWS
 Below you will find some reading materials and additional resources that support today’s topic and the upcoming lecture.
 Review the Submission Instructions for guidance on completing and submitting this assignment.
+
+The reason that Cloud Virtualization matters is that cloud computing is the future. Little by little we are going away from huge, hot , servers in house that have wires running everywhere and need someone cleaning them and making sure they work . Now we can put that responsibility to a big company like amazon saving us time, room and money most of the time.
 ## Reading
 Importance of Virtualization in the Amazon EC2 Cloud
 ### How has virtualization evolved beyond desktops and servers?
